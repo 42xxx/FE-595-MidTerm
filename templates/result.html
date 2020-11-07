@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>result</title>
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+			NLP result
+		</div>
+		<h2 align="center">Sentiment result for your text </h2>
+
+	</div>
+	</header>
+	<p style="color:blue;text-align: center;"><b>Results for Comment</b></p>
+	<div align="center" class="results">
+
+	{% if prediction > 0 %}
+		<h2 style="color:red;">Positive Sentiment </h2>
+	{% elif prediction < 0 %}
+		<h2 style="color:blue;">Negative Sentiment</h2>
+	{% endif %}
+
+	{% for item in words %}
+	<li>{{ item }}</li>
+	{% endfor %}
+
+	</div>
+
+
+</body>
+</html>

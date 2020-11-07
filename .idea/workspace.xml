@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b58a12c6-c238-4ec8-8961-bb0c7b4139bf" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jnkuvZaE5qjg74vqulgI6cOoSl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="flask api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="midterm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.flask api" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b58a12c6-c238-4ec8-8961-bb0c7b4139bf" name="Default Changelist" comment="" />
+      <created>1604447469916</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604447469916</updated>
+      <workItem from="1604447475749" duration="3179000" />
+      <workItem from="1604546653875" duration="10068000" />
+      <workItem from="1604707843194" duration="222000" />
+      <workItem from="1604708380138" duration="8865000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="402" y="191" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604626078084">
+      <screen x="0" y="23" width="1280" height="730" />
+    </state>
+    <state x="402" y="191" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.730@0.23.1280.730" timestamp="1604626078084" />
+    <state width="1080" height="176" key="GridCell.Tab.0.bottom" timestamp="1604791154382">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1080" height="177" key="GridCell.Tab.0.bottom/0.23.1280.723@0.23.1280.723" timestamp="1604458141462" />
+    <state width="1080" height="176" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1604709958111" />
+    <state width="1080" height="176" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1604791154382" />
+    <state width="1080" height="176" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1604786977097" />
+    <state width="1080" height="176" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1604707930328" />
+    <state width="1080" height="176" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1604707833335" />
+    <state width="1080" height="176" key="GridCell.Tab.0.center" timestamp="1604791154380">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1080" height="177" key="GridCell.Tab.0.center/0.23.1280.723@0.23.1280.723" timestamp="1604458141461" />
+    <state width="1080" height="176" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1604709958110" />
+    <state width="1080" height="176" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1604791154380" />
+    <state width="1080" height="176" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1604786977095" />
+    <state width="1080" height="176" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1604707930326" />
+    <state width="1080" height="176" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1604707833334" />
+    <state width="1080" height="176" key="GridCell.Tab.0.left" timestamp="1604791154380">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1080" height="177" key="GridCell.Tab.0.left/0.23.1280.723@0.23.1280.723" timestamp="1604458141460" />
+    <state width="1080" height="176" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1604709958109" />
+    <state width="1080" height="176" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1604791154380" />
+    <state width="1080" height="176" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1604786977095" />
+    <state width="1080" height="176" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1604707930324" />
+    <state width="1080" height="176" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1604707833333" />
+    <state width="1080" height="176" key="GridCell.Tab.0.right" timestamp="1604791154381">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1080" height="177" key="GridCell.Tab.0.right/0.23.1280.723@0.23.1280.723" timestamp="1604458141462" />
+    <state width="1080" height="176" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1604709958110" />
+    <state width="1080" height="176" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1604791154381" />
+    <state width="1080" height="176" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1604786977096" />
+    <state width="1080" height="176" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1604707930327" />
+    <state width="1080" height="176" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1604707833334" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/midterm$flask_api.coverage" NAME="flask api Coverage Results" MODIFIED="1604791154364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
