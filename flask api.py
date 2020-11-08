@@ -16,11 +16,6 @@ def home():
 
 @app.route('/analysis', methods=['POST'])
 def sentiment_ana():
-    #----
-    nltk.download('stopwords')
-    nltk.download('punkt')
-    print(stopwords.words)
-    #---
     result = []
     if request.method == 'POST':
         message = request.form['message']
@@ -38,14 +33,15 @@ def sentiment_ana():
 def Info_word():
     nltk.download('stopwords')
     nltk.download('punkt')
-    print(stopwords.words)
     wordbag = []
     if request.method == 'POST':
         text = request.form['message']
         text_tokens = word_tokenize(text)
         infoword = [word for word in text_tokens if not word in stopwords.words()]
         wordbag = infoword
-    return render_template('result.html', words=wordbag)
+    return render_template('wcResult.html', words=wordbag)
+
+
 
 
 if __name__ == '__main__':

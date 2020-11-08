@@ -17,7 +17,9 @@
 	</header>
 
 	<div align="center";class="ml-container">
-
+		<div>
+			Machine Learning App with Flask
+		</div>
 		<form action="{{ url_for('sentiment_ana')}}" method="POST">
 		<p style="color:blue;text-align: center;">Enter Your Message Here</p>
 		<!-- <input type="text" name="comment"/> -->
@@ -25,14 +27,21 @@
 		<br/>
 
 		<input type="submit" class="btn-info" value="analyze">
-		<input type="button" value="count" class="btn-info" onclick = "sentiment_ana();" />
 	</form>
-
-
-
 	</div>
 
 
+	<div align="center";class="ml-container">
+
+		<form action="{{ url_for('Info_word')}}" method="POST">
+		<p style="color:blue;text-align: center;">Enter Your Message Here</p>
+		<!-- <input type="text" name="comment"/> -->
+		<textarea name="message" rows="4" cols="50" ></textarea>
+		<br/>
+		<input type="submit" class="btn-info" value="analyze">
+		<input type="button" value="count" class="btn-info" onclick = "Info_word();" />
+	</form>
+	</div>
 	
 	
 
