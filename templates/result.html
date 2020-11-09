@@ -22,6 +22,8 @@
 		<h2 style="color:red;">Positive Sentiment </h2>
 	{% elif prediction < 0 %}
 		<h2 style="color:blue;">Negative Sentiment</h2>
+	{% elif prediction == 0 %}
+		<h2 style="color:black;">Neutral Sentiment</h2>
 	{% endif %}
 
 	</div>

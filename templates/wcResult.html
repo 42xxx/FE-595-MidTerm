@@ -10,17 +10,18 @@
 		<div id="brandname">
 			NLP result
 		</div>
-		<h2 align="center">Sentiment result for your text </h2>
+		<h2 align="center">Basic NLP result for your text </h2>
 
 	</div>
 	</header>
-	<p style="color:blue;text-align: center;"><b>Results for Comment</b></p>
 	<div align="center" class="results">
 
+	<h3 align="center">The most meaningful words and punk are</h3>
 	{% for item in words %}
 	<li>{{ item }}</li>
 	{% endfor %}
-
+	<h3 align="center">the length of your text are</h3>
+		<li>{{length}}</li>
 	</div>
 
 

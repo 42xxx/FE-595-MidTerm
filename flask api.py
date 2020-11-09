@@ -22,11 +22,7 @@ def sentiment_ana():
         analyzer = SentimentIntensityAnalyzer()
         vs = analyzer.polarity_scores(message)
         result = vs["compound"]
-        text = request.form['message']
-        text_tokens = word_tokenize(text)
-        infoword = [word for word in text_tokens if not word in stopwords.words()]
-        wordbag = infoword
-    return render_template('result.html', prediction=result, words = wordbag)
+    return render_template('result.html', prediction=result)
 
 
 @app.route('/countInfoWord', methods=['POST'])
@@ -34,12 +30,14 @@ def Info_word():
     nltk.download('stopwords')
     nltk.download('punkt')
     wordbag = []
+    len_text = 0
     if request.method == 'POST':
         text = request.form['message']
         text_tokens = word_tokenize(text)
         infoword = [word for word in text_tokens if not word in stopwords.words()]
         wordbag = infoword
-    return render_template('wcResult.html', words=wordbag)
+        len_text = len(text_tokens)
+    return render_template('wcResult.html', words=wordbag, length = len_text)
 
 
 
